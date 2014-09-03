@@ -3,6 +3,11 @@
 
 @section('content')
 	<h1> All Users </h1>
+	{{ Form::open(['route' => 'users.store']) }}
+  <div>
+		  {{ Form::submit('Create') }}</div>
+		
+		{{ Form::close()}}
 	
 	@if ($users->count())
 	
@@ -14,7 +19,7 @@
 	@else
 		<p>Unfortunately, there are no users</p>
 	@endif
-		
+	
 
 @stop
 	   

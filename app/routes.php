@@ -1,5 +1,6 @@
 <?php
 
+//Route::get('users', 'UsersController@index');
 
 Route::get('/', function()
 {

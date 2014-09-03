@@ -3,11 +3,14 @@
 
 @section('content')
 	<h1> All Users </h1>
+	   
+     <a href='/users/create'>Create New </a>
 	{{ Form::open(['route' => 'users.store']) }}
   <div>
 		  {{ Form::submit('Create') }}</div>
 		
 		{{ Form::close()}}
+		
 	
 	@if ($users->count())
 	

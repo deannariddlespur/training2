@@ -35,6 +35,8 @@
 		}
 	</style>
 </head>
+		<a href="http://laravel.com" title="Laravel PHP Framework"><img src="http://www.w3schools.com/html/hackanm.gif"></a>
+
 <body>
 	@yield('content')
 	
